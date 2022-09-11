@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "@craco/craco": "^6.4.5",
-    "@synthetixio/synpress": "^2.0.2-beta.1",
+    "@synthetixio/synpress": "^2.2.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -22,7 +22,8 @@
   "scripts": {
     "start": "craco start",
     "build": "craco build",
-    "synpress:open": "env-cmd -f .env synpress open"
+    "synpress:open": "env-cmd -f .env synpress open --configFile tests/e2e/synpress.config.ts",
+    "synpress:run": "env-cmd -f .env synpress run  --configFile tests/e2e/synpress.config.ts"
   },
   "eslintConfig": {
     "extends": [
@@ -41,5 +42,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "eslint-config-react-app": "^7.0.1",
+    "eslint-plugin-react": "^7.31.8",
+    "html-webpack-plugin": "^5.5.0"
   }
 }
