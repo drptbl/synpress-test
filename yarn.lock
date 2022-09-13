@@ -2483,10 +2483,10 @@
     synthetix "2.41.0"
     web3-utils "1.2.11"
 
-"@synthetixio/synpress@^2.2.0":
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@synthetixio/synpress/-/synpress-2.2.0.tgz#8f17459d09eb08106006516e75fc3e3995375007"
-  integrity sha512-pQwuHnclO1FpMFV35P/ell802B8TGIhNO5hIZ75999GjP4mGQpHrcZt0RwBlm8PzhpSRvqlcPLYX9uH4S7DIZQ==
+"@synthetixio/synpress@^2.2.1":
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/@synthetixio/synpress/-/synpress-2.2.1.tgz#561e7c1cb893428ca87a5547c5de4ad4eb5be815"
+  integrity sha512-R0H8iT5K9UXAh/1vVGMXcXeD2LF14AhXYo3ySuqseDceCDmYEy2CdbTeJfYyuLtMPjgkkRt5sG5X/AH2Sn+7QA==
   dependencies:
     "@cypress/code-coverage" "^3.10.0"
     "@cypress/react" "^6.2.0"
@@ -9167,6 +9167,7 @@ html-minifier-terser@^6.0.2:
     util.promisify "1.0.0"
 
 "html-webpack-plugin-5@npm:html-webpack-plugin@^5", html-webpack-plugin@^5.5.0:
+  name html-webpack-plugin-5
   version "5.5.0"
   resolved "https://registry.yarnpkg.com/html-webpack-plugin/-/html-webpack-plugin-5.5.0.tgz#c3911936f57681c1f9f4d8b68c158cd9dfe52f50"
   integrity sha512-sy88PC2cRTVxvETRgUHFrL4No3UxvcH8G1NepGhqaTT+GXN2kTamqasot0inS5hXeg1cMbFDt27zzo9p35lZVw==
