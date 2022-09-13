@@ -5,6 +5,5 @@ const synpressPath = path.join(
 );
 
 module.exports = {
-  root: true,
   extends: `${synpressPath}/.eslintrc.js`,
 };
